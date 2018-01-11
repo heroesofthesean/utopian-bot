@@ -12,7 +12,8 @@ To get the bot to work:<br>
 You'll need to create a discord bot account on the [discordapp.com Applications Page](https://discordapp.com/developers/applications/me).<BR> <BR>
 The bot looks for a Bot token in the `utopianconfig.json` file, so make sure you copy the bot's token!<BR> <BR>
 Go to the `utopianconfig.json` file and past the bot token where it says "Bot_Token_Here". <BR> <BR>
-Next, make sure to get `discord.js` into the folder for the bot with the following line: `npm i -S discord.js`<BR> <BR>
+  We're going to make a `package.json` file now, by running `npm init -y` in a command window. <BR><BR>
+Next, make sure to get `discord.js` into the folder for the bot with the following line: `npm i -S discord.js` <BR> <BR>
 Right now there should be the following things in your folder: a folder called "node_modules", a json file called "utopianconfig" and the "utopianmod" file. <BR> <BR>
 In the CLI (which should still be in your project folder) type the following command: `node utopianmod.js`. <BR> <BR>
 If everything went right, you should get a message saying "I am ready!" <BR> <BR>
